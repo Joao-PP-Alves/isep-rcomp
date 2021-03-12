@@ -1,10 +1,10 @@
 RCOMP 2020-2021 Project repository template
 ===========================================
 # 1. Team members (update this information please) #
-  * 1111111 - {First and last name} 
-  * 2222222 - {First and last name} 
-  * 3333333 - {First and last name} 
-  * 4444444 - {First and last name}  
+  * 1170640 - {Ricardo Mourisco} 
+  * 1182147 - {António Dias} 
+  * 1190743 - {João Alves} 
+  * 1191513 - {João Correia}  
 
 Any team membership changes should be reported here, examples:
 

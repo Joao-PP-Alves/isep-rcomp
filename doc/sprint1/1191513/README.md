@@ -1,4 +1,4 @@
-RCOMP 2019-2020 Project - Sprint 1 - Member 4444444 folder
+RCOMP 2020-2021 Project - Sprint 1 - Member 1191513 folder
 ===========================================
 (This folder is to be created/edited by the team member 4444444 only)
 
