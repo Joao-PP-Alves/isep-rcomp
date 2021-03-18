@@ -1,0 +1,32 @@
+coisas a fazer para o Sprint1 de RCOMP
+
+- calcular número de outlets por sala (area da sala ou necessidade pedida pelo cliente)
+- calcular o número de metros de cabo de rede dentro de cada sala
+- calcular o número de metros de cabo de rede (fibra otica, pois de uma forma geral, existem mais de 90 metros entre edifícios) entre edificios
+- necessidade de existirem bastidores em salas ou não (dependendo do número de outlets ou distancia entre o bastidor anterior)
+
+
+
+
+
+Building 1
+	Ground 0
+		Areas
+		10.2 : 11*11.5 = 126.5 m2		(18 outlets)
+		10.1 : 7.3*11.5 = 83.95 m2		(26 outlets)
+		10.3 : não necessita de area, apenas 4m de cabo por cada outlet, ou seja, 5 outlets, 20m de cabo (desde o ponto de passagem junto à parede mais próxima)
+		
+	Ground 1
+		Areas
+		11.1 : Datacenter room, no outlets needed
+		11.2 : 7.5*5.5 = 41.25 m2       (10 outlets)
+		11.3 : 7*11.5 = 80.5 m2         (18 outlets)
+		11.4 : 11* 11.5 = 126.5 m2      (26 outlets)
+		11.5 : does not need outlets
+
+
+Questões:
+- WIFI. Considerar atenuação das paredes?
+- Cabos fibra, como decidir quantos filamentos de fibra existem dentro de cada cabo? Diferença entre multimode/monomode, apenas referente à distância?
+- CPs e HCs 24 ou 48 outlets? alguma especificidade na escolha de um ou de outro? Preferência por ter 2 de 24 ou 1 de 48?
+
