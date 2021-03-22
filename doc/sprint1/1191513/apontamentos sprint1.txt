@@ -27,6 +27,11 @@ Building 1
 
 Questões:
 - WIFI. Considerar atenuação das paredes?
+    - Não
 - Cabos fibra, como decidir quantos filamentos de fibra existem dentro de cada cabo? Diferença entre multimode/monomode, apenas referente à distância?
+    -
 - CPs e HCs 24 ou 48 outlets? alguma especificidade na escolha de um ou de outro? Preferência por ter 2 de 24 ou 1 de 48?
+    - fica à nossa consideração
+	
+-- Necessário dimensionar as cablagens entre os edifícios? 1 cabo desde o MC até cada um dos IC (edifícios)?
 
