@@ -1,7 +1,22 @@
-RCOMP 2019-2020 Project - Sprint 1 - Member 2222222 folder
+RCOMP 2020-2021 Project - Sprint 1 - Member 1182147 Folder
 ===========================================
-(This folder is to be created/edited by the team member 2222222 only)
+## Building 3
 
-#### This is just an example for a team member with number 2222222 ####
-### Each member should create a folder similar to this, matching his/her number. ###
-The owner of this folder (member number 2222222) will commit here all the outcomes (results/artifacts/products)		       of his/her work during sprint 1. This may encompass any kind of standard file types.
+### Blueprint Measurements (Scale - 2.9cm <=> 10m)
+
+| Room | Length (cm)  | Width (cm)  | Real Length (m) | Real Width (m) | Area (m²) | Outlets |
+|------|--------------|-------------|-----------------|----------------|-----------|---------|
+| Floor 0 | | | | | | |
+| 30.1 | 1,80 | 2.25 | 6.21 | 7.76 | 48.19 | 10 |
+| 30.2 | 1.95 | 2.25 | 6.72 | 7.76 | 52.15 | 12 |
+| 30.3 | 1.95 | 2.25 | 6.72 | 7.76 | 52.15 | 12 |
+| 30.4 | 2.30 | 2.25 | 7.93 | 7.76 | 61.54 | 14 |
+| 30.5 | 1.80 | 2.25 | 6.21 | 7.76 | 48.19 | 10 |
+| Floor 1 | | | | | | |
+| 31.1 | 1.80 | 2.25 | 6.21 | 7.76 | 48.19 | 10 |
+| 31.2 | 1.95 | 2.25 | 6.72 | 7.76 | 52.15 | 12 |
+| 31.3 | 1.95 | 3.40 | 6.72 | 11.72 | 78.76 | 16 |
+| 31.4 | 2.30 | 2.25 | 7.93 | 7.76 | 61.54 | 14 |
+| 31.5 | 1.80 | 2.25 | 6.21 | 7.76 | 48.19 | 10 |
+| 31.6 | 1.95 | 1.45 | 6.72 | 5.00 | 33.60 | 8 |
+| Right Open Area | 16.90 | 8.40 | 58.20 | 28.97 | 1686.05 | 338 |
