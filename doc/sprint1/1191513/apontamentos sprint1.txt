@@ -33,5 +33,21 @@ Questões:
 - CPs e HCs 24 ou 48 outlets? alguma especificidade na escolha de um ou de outro? Preferência por ter 2 de 24 ou 1 de 48?
     - fica à nossa consideração
 	
--- Necessário dimensionar as cablagens entre os edifícios? 1 cabo desde o MC até cada um dos IC (edifícios)?
+-- Necessário dimensionar as cablagens entre os edifícios? 1 cabo desde o MC até cada um dos IC (edifícios)? apenas indicar que existem
+-- Necessário considerar a entrada de fibra do ISP até ao MC? NAO
+-- Temos de ter em consideração Link Aggregation, ou seja, considerar redundância? SIM
+-- patch cords? 5m
+
+
+
+
+
+
+
+
+
+
+
+
+
 
