@@ -33,7 +33,7 @@ For this particular Sprint, I was in charge of designing a structured cabling de
 
 ### Floor 0
 
-![Floor 0](floor0.png)
+![Floor 0](floor0.PNG)
 
 ![Floor 0 Plan](floor0plan.png)
 
@@ -62,7 +62,7 @@ As to the placement of the APs, they were deemed the best placements in order to
 
 ### Floor 1
 
-![Floor 1](floor1.png)
+![Floor 1](floor1.PNG)
 
 ![Floor 1 Plan](floor1plan.png)
 
