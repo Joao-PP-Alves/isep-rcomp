@@ -7,13 +7,6 @@ Para este projeto, fiquei encarregue de cobrir o Edifício B.
 Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relação ao resto dos edifícios deste projeto.
 
 
-### Pressupostos:
-* Cabo de categoria 100GbaseSR10 será utilizado entre o IC e os HCs de cada edifício.
-* Cabo de categoria 40GbaseSR4 será utilizado entre os HCs e os CPs e APs.
-* Cabo de categoria CAT6A será utilizado entre as ethernet outlets e os utilizadores finais.
-* A difusão da rede pelos Access Points não sofre atenuação das paredes. Assim sendo, dadas as dimensões do edifício, são necessários 2 por piso, de modo a cobrir totalmente o edifício.
-* Pelo facto de os Access Points receberem rede por fibra ótica, terão de ser alimentados eletricamente dado não ser possível utilizar PoE (Power over Ethernet).
-
 ## Piso 0 (Ground Floor)
 
 ![Piso_0](GroundZero.png)
@@ -31,7 +24,9 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 
 ### Inventário:
 
-* 4 Half Rack Enclosure (Para IC, HC e CP)
+* 3 Half Rack Enclosure (Para IC, HC e CP):
+   * HC -> 12U
+   * 2 CP -> 8U (x2)
 * 1 IC
 * 1 HC:
     * 1 Switch Fibra Ótica 24 Portas
@@ -86,7 +81,10 @@ Ainda que a ligação a tomadas no teto seja desagradável, todas elas foram lá
 
 ### Inventário:
 
-* 4 Half Rack Enclosure (Para HC e CP)
+* 4 Half Rack Enclosure (Para HC e CP) :
+    * HC (Sala 21.9) -> 12U
+    * HC (Sala 21.3) -> 8U
+    * 2 Cp -> 4U (x2)
 * 1 HC (Sala 21.9):
     * 1 Switch Fibra Ótica 24 Portas
     * 1 Patch Panel Fibra Ótica 24 portas
