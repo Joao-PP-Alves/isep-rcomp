@@ -9,12 +9,8 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
 
 ### Pressupostos:
 * Todos os equipamentos incluídos na cable subsystem 3 e 2 (MC, ICs, HCs) bem como os APs e CPs têm entrada de fibra óptica. Estes equipamentos foram dimensionados apenas para suprimir as necessidades indicadas no ficheiro deste sprint, ou seja, não contemplam futuras expansões da rede apesar de existir a possibilidade de alguns deles poderem ainda ter portas de saída disponíveis.
-* Do MC que se encontra no primeiro piso deste edifício, sairá para cada IC de cada edifício 1 cabo de fibra ótica de categoria 100GbaseLR10. 
-* Cabo de categoria 100GbaseSR10 será utilizado entre o IC e os HCs de cada edifício.
-* Cabo de categoria 40GbaseSR4 será utilizado entre os HCs e os CPs e APs.
-* Cabo de categoria CAT6A será utilizado entre as ethernet outlets e os utilizadores finais.
 * A difusão da rede pelos Access Points não sofre atenuação das paredes. Assim sendo, dadas as dimensões do edifício, é possível colocar apenas 1 célula por piso, conseguindo uma cobertura total dos dois pisos pois não existe nenhum ponto a mais de 25 metros. De forma a evitar interferências desnecessárias entre estes 2 APs, um difundirá no canal 1 e o outro no canal 11.
-* Pelo facto de os Access Points receberem rede por fibra ótica, terão de ser alimentados eletricamente dado não ser possível utilizar PoE (Power over Ethernet)
+* Todas as medidas foram recolhidas utilizando uma régua ajustada à escala respetiva de cada imagem.
 
 ## Piso 0 (Ground Floor)
 
@@ -42,7 +38,6 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
 * Telecommunications enclosure (CP, 4U size)
     * 1 Switch fibra ótica com patch panel de 24 ethernet outlets)
     * 1 Patch panel de 24 ethernet outlets
-
 * 1 AP 
 * 52 Outlets
     * 49 RJ45 Outlets
