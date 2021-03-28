@@ -14,7 +14,6 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 * A difusão da rede pelos Access Points não sofre atenuação das paredes. Assim sendo, dadas as dimensões do edifício, são necessários 2 por piso, de modo a cobrir totalmente o edifício.
 * Pelo facto de os Access Points receberem rede por fibra ótica, terão de ser alimentados eletricamente dado não ser possível utilizar PoE (Power over Ethernet).
 
-
 ## Piso 0 (Ground Floor)
 
 ![Piso_0](GroundZero.png)
@@ -31,6 +30,8 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 
 
 ### Inventário:
+
+* 4 Half Rack Enclosure (Para IC, HC e CP)
 * 1 IC
 * 1 HC:
     * 1 Switch Fibra Ótica 24 Portas
@@ -40,12 +41,15 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 * 2 CP:
     * 2 Switch 48 portas
     * 2 Patch Panel 48 portas
-* 82 outlets
+* 2 Access Points
+* 2 outlets - Fibra (Para AP)
+* 82 outlets - Cobre (RJ45)
 * 1500m cable CAT6A
-* 450m cable Fibra 40GbaseSR4
+* 450m cable Fibra (40GbbaseSR4 + 100GbbaseSR10)
 
 ###Notas:
 
+* Cada Access Point tem a sua própria tomada de fibra, a qual não aparece no esquema, apenas no inventário.
 * No HC existem 2 Switch e 2 Patch Panel de modo a conseguir distribuir cobre e fibra para os pontos necessários.
 * Os CPs acima apresentados têm 1 Switch e um Patch Panel cada, apenas aparecem em como 2 de modo a generalizar.
 * Como redundância, serão sempre 2 cabos em vez de um na fibra, apesar de passarem pelo mesmo sítio.
@@ -60,7 +64,7 @@ A medição destes mesmos cabos aparece na tabela abaixo com fundo verde e foram
 
 ![Piso_1](GroundOne.png)
 
-Neste edifício, toda a cablagem é feita pelo telhado falso, este que fica a 2,5m do chão e o cabo de fibra que vem do piso debaixo foi contabilizado em termos de tamanho.
+Neste piso, toda a cablagem é feita pelo telhado falso, este que fica a 2,5m do chão e o cabo de fibra que vem do piso debaixo foi contabilizado em termos de tamanho.
 Ainda que a ligação a tomadas no teto seja desagradável, todas elas foram lá colocadas. Se fosse necessário agradar ao cliente, seria apenas necessário acrescentar 2.5m a todas as tomadas de modo a estas ficarem no chão. Descartou-se esta possibilidade para um menor uso de cablagem.
 
 ### Medidas:
@@ -81,6 +85,8 @@ Ainda que a ligação a tomadas no teto seja desagradável, todas elas foram lá
 | 21.11   | 11,03  | 4,83   | 53,28  | 12      |
 
 ### Inventário:
+
+* 4 Half Rack Enclosure (Para HC e CP)
 * 1 HC (Sala 21.9):
     * 1 Switch Fibra Ótica 24 Portas
     * 1 Patch Panel Fibra Ótica 24 portas
@@ -92,12 +98,15 @@ Ainda que a ligação a tomadas no teto seja desagradável, todas elas foram lá
 * 2 CP:
     * 2 Switch 24 portas
     * 2 Patch Panel 24 portas
-* 116 outlets
+* 2 Access Points 
+* 2 outlets - Fibra (Para AP)  
+* 116 outlets - Cobre (RJ45)
 * 1200m cable cat6A
-* 1000m cable Fibra 40GbaseSR4
+* 1000m cable Fibra (40GbbaseSR4 + 100GbbaseSR10)
 
 ###Notas:
 
+* Cada Access Point tem a sua própria tomada de fibra, a qual não aparece no esquema, apenas no inventário.
 * No HC da sala 21.9 existem 2 Switch e 2 Patch Panel de modo a conseguir distribuir cobre e fibra para os pontos necessários.
 * No HC da sala 21.3 apenas existe 1 de cada uma vez que só cobre é utilizado na cablagem das ligações.  
 * Os CPs acima apresentados têm 1 Switch e um Patch Panel cada, apenas aparecem em como 2 de modo a generalizar.
