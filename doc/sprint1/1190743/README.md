@@ -24,7 +24,7 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 
 ### Inventário:
 
-* 3 Half Rack Enclosure (Para IC, HC e CP):
+* 3 Half Rack Enclosure (Para HC e CP):
    * HC -> 12U
    * 2 CP -> 8U (x2)
 * 1 IC
