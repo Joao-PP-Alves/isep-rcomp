@@ -29,8 +29,8 @@ RCOMP 2020-2021 Project - Sprint 1 - Member 1170640 folder
 - CAT6A Cable (2710 meters)
 - Fibre Cable
   - 100GbaseLR10 (120 meters)
-  - 40GbaseSR10 (110 meters)
-  - 10GbaseSR4 (285 meters)
+  - 40GbaseSR4 (110 meters)
+  - 10GbaseSR (285 meters)
 - Half Rack Enclosure (x12)
 - Full Rack Enclosure (x1)
 - Wireless Access Point (x3)
@@ -54,7 +54,7 @@ De seguida, falamos da sala aberta do lado direito. Quatro linhas de fibra saem 
 
 #### Inventário:
 - CAT6A Cable (785 meters)
-- 10GbaseSR4 Fibre Cable (20 meters)
+- 10GbaseSR Fibre Cable (20 meters)
 - Half Rack Enclosure (x2)
 - Copper Cable Outlet (x52)
 - Copper Cable Patch Panel (48 ports) (x2)
