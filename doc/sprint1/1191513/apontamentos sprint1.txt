@@ -1,11 +1,14 @@
 coisas a fazer para o Sprint1 de RCOMP
 
+* Para o rede no geral:
+- dimensionar tipo de cablagens entre os diversos equipamentos de forma a suprimir as necessidades de largura de banda
+
+* Para cada edifício:
 - calcular número de outlets por sala (area da sala ou necessidade pedida pelo cliente)
-- calcular o número de metros de cabo de rede dentro de cada sala
-- calcular o número de metros de cabo de rede (fibra otica, pois de uma forma geral, existem mais de 90 metros entre edifícios) entre edificios
-- necessidade de existirem bastidores em salas ou não (dependendo do número de outlets ou distancia entre o bastidor anterior)
-
-
+- calcular o número de metros de cabo de rede desde o HC ou CP até à outlet.
+- dimensionar bastidores (CPs) em salas ou não (dependendo do número de outlets ou distancia entre o bastidor anterior)
+- dimensionar colocação de APs para suprimir necessidade de difusão da rede em cada edifício e piso.
+-
 
 
 

@@ -27,7 +27,7 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
 #### Notas:
 * Horizontal Cross-connect do piso 0 presente na sala 10.2, com 48 saídas, abastece essa mesma sala (26 outlets), o Access Point e o Consolidation point.
 * Consolidation Point do piso 0 presente na sala 10.1, com 24 portas de saída, abastece essa mesma sala (18 outlets) e a mesa da sala 10.3 (5 outlets).
-
+* Redundância foi implementada para todos os cabos de fibra ótica dimensionados.
 
 #### Inventário:
 * Telecommunications enclosure (HC, 10U size)
@@ -44,7 +44,7 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
     * 3 Fibre Outlets
 * 49 RJ45 Patch cords
 * 950 metros cabo cobre CAT6A
-* 50 metros cabo fibra ótica categoria 40GbaseSR4
+* 100 metros cabo fibra ótica categoria 40GbaseSR4
     
 
 ## Piso 1 (First Floor)
@@ -62,6 +62,7 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
 #### Notas:
 * Horizontal Cross-connect do piso 1 presente na sala 11.1, com 24 portas de saída, abastece a sala 11.2 (10 outlets), o Access Point e o Consolidation point.
 * Consolidation Point do piso 1 presente na sala 11.3, com 48 portas de saída, abastece essa mesma sala (18 outlets) e a sala 11.4 (26 outlets).
+* Redundância foi implementada para todos os cabos de fibra ótica dimensionados.
 
 #### Inventário:
 * 1 MC-IC
@@ -80,4 +81,7 @@ aqui alojado o Main Cross-connect (MC) onde se inicia o backbone desta rede.
     * 3 Fibre Outlets 
 * 54 Patch cords
 * 780 metros cabo cobre CAT6A
-* 45 metros cabo fibra ótica categoria 40GbaseSR4
+* 90 metros cabo fibra ótica categoria 40GbaseSR4
+
+#### Dimensionamento da cablagem:
+![Cable_measurement](excel.jpg)
