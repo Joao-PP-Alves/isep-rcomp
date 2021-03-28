@@ -66,7 +66,7 @@ As to the placement of the APs, they were deemed the best placements in order to
 
 * Telecommunication Enclosure (IC + HC - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
-	* 1 Patch Panel w/24 Ethernet Ports - 1U
+	* 1 Patch Panel w/24 Ports - 1U
 	* 1 Patch Panel w/6 Optic Fibre Ports - 1U
 * 2 Telecommunication Enclosures (HC - 4U)
 	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
@@ -105,7 +105,7 @@ As to the placement of the AP, it is centered on the left area of floor 1 in roo
 
 * Telecommunication Enclosure (HC - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
-	* 1 Patch Panel w/24 Ethernet Ports - 1U
+	* 1 Patch Panel w/24 Ports - 1U
 	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
 * Telecommunication Enclosure (CP - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/48 Ports - 2U
