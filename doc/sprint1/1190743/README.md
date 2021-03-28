@@ -1,9 +1,9 @@
-RCOMP 2019-2020 Project - Sprint 1 - Member 1190743 folder
+RCOMP 2020-2021 Project - Sprint 1 - Member 1190743 folder
 ===========================================
 
-## Edifício B
+## Edifício 2
 
-Para este projeto, fiquei encarregue de cobrir o Edifício B.
+Para este projeto, fiquei encarregue de cobrir o Edifício 2.
 Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relação ao resto dos edifícios deste projeto.
 
 
@@ -15,7 +15,7 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 
 |         | C_real (m) | L_real (m) | Área (m²) | Outlets |
 |---------|--------|--------|--------|---------|
-| B0      | 60     | 20     | 1200   | 82      |
+| Ground Floor      | 60     | 20     | 1200   | 82      |
 | 20.2    | 12,75  | 7,2    | 91,8   | 20      |
 | 20.3    | 13,8   | 9,3    | 128,34 | 26      |
 | 20.4    | 8,27   | 18,62  | 153,99 | 32      |
@@ -66,7 +66,7 @@ Ainda que a ligação a tomadas no teto seja desagradável, todas elas foram lá
 
 |         | C_real (m) | L_real (m) | Área (m²) | Outlets |
 |---------|--------|--------|--------|---------|
-| B1      | 60     | 20     | 1200   | 116     |
+| Floor1  | 60     | 20     | 1200   | 116     |
 | 21.1    | 3,8    | 5,5    | 20,9   | 6       |
 | 21.2    | 4,48   | 8,27   | 37,05  | 8       |
 | 21.3    | 5      | 8,27   | 41,35  | 10      |
