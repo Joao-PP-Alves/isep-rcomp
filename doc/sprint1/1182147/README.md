@@ -55,7 +55,7 @@ Regarding the placements of the CPs, the justification for their placements were
 - CP in room 30.2 - To avoid having the HC in room 30.4 powering all outlets in the left side of the floor, I centered this CP in the northern area
 	in order to maintain as leveled of a signal strength as strong as possible to the northern rooms (i.e. 30.1, 30.2 and 30.3).
 - CPs in the Open Area - In order to maintain the corresponding Patchpanels within a maximum of 128 doors, each CP (except the rightmost one),
-	powers 3 lanes (30x3 outlets) and 12 on the main suspended raceway corridor. While the the right most CP powers solely the rightmost lane and the
+	powers 3 lanes (30x3 outlets) and 12 on the main suspended raceway corridor. While the rightmost CP powers solely the rightmost lane and the
 	last 2 rightmost outlets on the suspended raceway corridor.
 	
 As to the placement of the APs, they were deemed the best placements in order to attain full Wi-fi coverage of the floor, while avoiding deadzones.
