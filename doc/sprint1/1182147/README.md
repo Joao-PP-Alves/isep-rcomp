@@ -86,6 +86,7 @@ Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable
 * 440 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
 
 Note: The Optic Fibre measurement requirements already takes into account redundancy.
+
 Note2: While it is acknowledged in the schematic that MC -> IC connection exists, it is not taken into account in this particular inventory.
 	
 ### Floor 1
