@@ -18,6 +18,7 @@ RCOMP 2020-2021 Project - Sprint 1 planning
     * Cabo de categoria 100GbaseSR10 será utilizado entre o IC e os HCs de cada edifício.
     * Cabo de categoria 40GbaseSR4 será utilizado entre os HCs e os CPs e APs.
     * Cabo de categoria CAT6A será utilizado entre as ethernet outlets e os utilizadores finais.
+* Cabo de cobre categoria CAT6A será montado conforme a norma T-568A.
 * Canais de WiFi serão definidos pelo responsável por cada edifício, sendo que foi ignorada qualquer interferência entre redes de edifícios diferentes.
 * Pelo facto de os Access Points receberem rede por fibra ótica, terão de ser alimentados eletricamente dado não ser possível utilizar PoE (Power over Ethernet)
 * Dimensionamento de cablagem a utilizar em cada edifício fica a cargo do responsável por cada edifício
