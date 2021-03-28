@@ -60,7 +60,7 @@ Regarding the placements of the CPs, the justification for their placements were
 	
 As to the placement of the APs, they were deemed the best placements in order to attain full Wi-fi coverage of the floor, while avoiding deadzones.
 
-Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable raceway is to be repeated across all other lanes. It was presented in this way as to avoid image clutter.
+*Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable raceway is to be repeated across all other lanes. It was presented in this way as to avoid image clutter.*
 
 #### Floor 0 Inventory
 
@@ -85,9 +85,9 @@ Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable
 * 150 meters Optic Fibre Wire Category 100GbaseSR10 (for IC -> HC connection)
 * 440 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
 
-Note: The Optic Fibre measurement requirements already takes into account redundancy.
+*Note: The Optic Fibre measurement requirements already takes into account redundancy.*
 
-Note2: While it is acknowledged in the schematic that MC -> IC connection exists, it is not taken into account in this particular inventory.
+*Note2: While it is acknowledged in the schematic that MC -> IC connection exists, it is not taken into account in this particular inventory.*
 	
 ### Floor 1
 
@@ -119,4 +119,4 @@ As to the placement of the AP, it is centered on the left area of floor 1 in roo
 * 20 meters Optic Fibre Wire Category 100GbaseSR10 (for IC -> HC connection)
 * 170 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
 
-Note: The Optic Fibre measurement requirements already takes into account redundancy.
+*Note: The Optic Fibre measurement requirements already takes into account redundancy.*
