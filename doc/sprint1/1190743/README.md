@@ -21,13 +21,13 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 
 ### Medidas:
 
-|         | C_imagem (cm) | L_imagem (cm) | C_real (m) | L_real (m) | Área (m²) | Outlets |
-|---------|---------|---------|--------|--------|--------|---------|
-| B0      |         |         | 60     | 20     | 1200   | 82      |
-| 20.2    | 3,62    | 2,1     | 12,75  | 7,2    | 91,8   | 20      |
-| 20.3    | 4       | 2,7     | 13,8   | 9,3    | 128,34 | 26      |
-| 20.4    | 2,4     | 5,35    | 8,27   | 18,62  | 153,99 | 32      |
-| Desk    | 2,4     | 0,5     | 8,27   | 1,37   | 11,33  | 4       |
+|         | C_real (m) | L_real (m) | Área (m²) | Outlets |
+|---------|--------|--------|--------|---------|
+| B0      | 60     | 20     | 1200   | 82      |
+| 20.2    | 12,75  | 7,2    | 91,8   | 20      |
+| 20.3    | 13,8   | 9,3    | 128,34 | 26      |
+| 20.4    | 8,27   | 18,62  | 153,99 | 32      |
+| Desk    | 8,27   | 1,37   | 11,33  | 4       |
 
 
 ### Inventário:
@@ -51,7 +51,7 @@ Este edifício, em termos de quantidade de cabo e tomadas é reduzido em relaç�
 * Como redundância, serão sempre 2 cabos em vez de um na fibra, apesar de passarem pelo mesmo sítio.
 Outro caminho foi considerado desnecessário uma vez que a cablagem é passada por baixo do edifício.
 A medição destes mesmos cabos aparece na tabela abaixo com fundo verde e foram contabilizados no valor total.  
-* Apesar a área total do piso ser de 1200m2, não foi necessária a colocação de 2 Horizontal Cross-Connects uma vez que apenas metade edifício recorre a cablagem e tomadas.
+* Apesar a área total do piso ser de 1200m², não foi necessária a colocação de 2 Horizontal Cross-Connects uma vez que apenas metade edifício recorre a cablagem e tomadas.
 
 
 ![Cablagem_Piso0](Cablagem_Piso0.png)
