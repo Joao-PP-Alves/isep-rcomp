@@ -74,7 +74,7 @@ As to the placement of the APs, they were deemed the best placements in order to
 	* 1 Optic Fibre -> CAT6A Switch w/128 Ports - 8U
 	* 1 Patch Panel w/128 Ports - 8U
 * Telecommunication Enclosure (CP - 8U)
-	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 2U
+	* 1 Optic Fibre -> CAT6A Switch w/48 Ports - 2U
 	* 1 Patch Panel w/48 Ports - 2U
 * 3 AP
 * 399 Outlets
