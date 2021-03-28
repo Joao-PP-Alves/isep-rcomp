@@ -60,6 +60,8 @@ Regarding the placements of the CPs, the justification for their placements were
 	
 As to the placement of the APs, they were deemed the best placements in order to attain full Wi-fi coverage of the floor, while avoiding deadzones.
 
+Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable raceway is to be repeated across all other lanes. It was presented in this way as to avoid image clutter.
+
 ### Floor 1
 
 ![Floor 1](floor1.PNG)
