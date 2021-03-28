@@ -62,6 +62,32 @@ As to the placement of the APs, they were deemed the best placements in order to
 
 Note: The outlet (and cabling) schematic of the leftmost lane of suspended cable raceway is to be repeated across all other lanes. It was presented in this way as to avoid image clutter.
 
+#### Floor 0 Inventory
+
+* Telecommunications Enclosure(IC + HC - 8U)
+	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
+	* 1 Patch Panel w/24 Ethernet Ports - 1U
+	* 1 Patch Panel w/6 Optic Fibre Ports - 1U
+* Telecommunications Enclosure(HC - 4U)
+	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
+* 3 Telecommunications Enclosure(CP - 32U)
+	* 1 Optic Fibre -> CAT6A Switch w/128 Ports - 8U
+	* 1 Patch Panel w/128 Ports - 8U
+* Telecommunications Enclosure(CP - 8U)
+	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 2U
+	* 1 Patch Panel w/48 Ports - 2U
+* 3 AP
+* 399 Outlets
+	* 396 RJ45 Outlets
+	* 3 Optic Fibre Outlets
+* 396 CAT6A Patch Cords
+* 5320 meters CAT6A Copper Wire
+* 150 meters Optic Fibre Wire Category 100GbaseSR10 (for IC -> HC connection)
+* 440 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
+
+Note: The Optic Fibre measurement requirements already takes into account redundancy.
+Note2: While it is acknowledged in the schematic that MC -> IC connection exists, it is not taken into account in this particular inventory.
+	
 ### Floor 1
 
 ![Floor 1](floor1.PNG)
@@ -73,4 +99,23 @@ For this particular floor, the reasoning for the placement of the HC is the same
 In regards to the CP, it now powers 4 rooms instead of 3 (such as the one in room 30.2 of floor 0) and, therefore, is centered accordingly.
 
 As to the placement of the AP, it is centered on the left area of floor 1 in room 31.6 as to maintain the signal strength equally across the floor.
-	
+
+### Floor 1 Inventory
+
+* Telecommunications Enclosure(HC - 8U)
+	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
+	* 1 Patch Panel w/24 Ethernet Ports - 1U
+	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
+* Telecommunications Enclosure(CP - 8U)
+	* 1 Optic Fibre -> CAT6A Switch w/48 Ports - 2U
+	* 1 Patch Panel w/48 Ports - 2U
+* 1 AP
+* 71 Outlets
+	* 70 RJ45 Outlets
+	* 1 Optic Fibre Outlet
+* 70 CAT6A Patch Cords
+* 920 meters CAT6A Copper Wire
+* 20 meters Optic Fibre Wire Category 100GbaseSR10 (for IC -> HC connection)
+* 170 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
+
+Note: The Optic Fibre measurement requirements already takes into account redundancy.
