@@ -26,8 +26,11 @@ RCOMP 2020-2021 Project - Sprint 1 - Member 1170640 folder
 ![Piso_0](GROUND_FLOOR.png)
 
 #### Inventário:
-- CAT6A Cable ( meters)
-- Fibre Cable ( meters)
+- CAT6A Cable (2710 meters)
+- Fibre Cable
+  - 100GbaseLR10 (120 meters)
+  - 100GbaseSR10 (110 meters)
+  - 40GbaseSR4 (285 meters)
 - Half Rack Enclosure (x12)
 - Full Rack Enclosure (x1)
 - Wireless Access Point (x3)
@@ -50,8 +53,8 @@ De seguida, falamos da sala aberta do lado direito. Quatro linhas de fibra saem 
 ![Piso_1](TOP_FLOOR.png)
 
 #### Inventário:
-- CAT6A Cable ( meters)
-- Fibre Cable ( meters)
+- CAT6A Cable (785 meters)
+- 40GbaseSR4 Fibre Cable (20 meters)
 - Half Rack Enclosure (x2)
 - Copper Cable Outlet (x52)
 - Copper Cable Patch Panel (48 ports) (x2)
@@ -68,3 +71,4 @@ No andar superior, em termos de infraestrutura, repete-se praticamente o que se 
 
 - Em termos da sala central, existia formas de reduzir o número de CP utilizados. No entanto, esta solução foi a escolhida pois as outras ou se demonstravam mais desorganizadas em termos de planeamento, ou iriam pôr uma sobrecarga nos CP que poderia ser muito mais disruptor em caso de falha de hardware ou linha.
 - Em termos de cobertura de WI-FI, devido à falta de ferramentas 3D e plantas que se pudesse usar que nos desse uma boa sensação de altura do edifício, não se consegue afirmar com todas as certezas que os WAP do andar de baixo cubram toda a área do andar de cima, especificamente, o canto superior esquerdo da sala 41.1. Caso essa deficiência se manifeste, recomendo um WAP no andar de cima, na mesma localização (latitude e longitude) onde se encontra o WAP do andar de baixo que cobre as salas 40.1 a 4.
+- Em termos de redundância, podíamos ter feito cabelagens em caminhos isolados, mas visto que não nos foi requerido nem nos é indicado que este edifício irá ser utilizado para funções críticas, decidi não contemplar no plano.

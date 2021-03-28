@@ -88,6 +88,8 @@ As to the placement of the APs, they were deemed the best placements in order to
 *Note: The Optic Fibre measurement requirements already takes into account redundancy.*
 
 *Note2: While it is acknowledged in the schematic that MC -> IC connection exists, it is not taken into account in this particular inventory.*
+
+*Note3: Unless it's a Fibre->Copper change. It is simply assumed the natural patch panel (the one outputting wiring of the equivalent type of wire inputted), contains its respective Switch (demonstrated in the sizing of the Telecomunication Enclosure).*
 	
 ### Floor 1
 
@@ -120,3 +122,5 @@ As to the placement of the AP, it is centered on the left area of floor 1 in roo
 * 170 meters Optic Fibre Wire Category 40GbaseSR4 (for HC -> CP and HC -> AP connections)
 
 *Note: The Optic Fibre measurement requirements already takes into account redundancy.*
+
+*Note2: Unless it's a Fibre->Copper change. It is simply assumed the natural patch panel (the one outputting wiring of the equivalent type of wire inputted), contains its respective Switch (demonstrated in the sizing of the Telecomunication Enclosure).*
