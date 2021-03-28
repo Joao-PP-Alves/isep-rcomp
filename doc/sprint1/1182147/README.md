@@ -54,7 +54,7 @@ Regarding the placements of the CPs, the justification for their placements were
 
 - CP in room 30.2 - To avoid having the HC in room 30.4 powering all outlets in the left side of the floor, I centered this CP in the northern area
 	in order to maintain as leveled of a signal strength as strong as possible to the northern rooms (i.e. 30.1, 30.2 and 30.3).
-- CPs in the Open Area - In order to maintain the corresponding Patchpanels within a maximum of 128 doors, each CP (except the rightmost one),
+- CPs in the Open Area - In order to maintain the corresponding Patchpanels within a maximum of 128 ports, each CP (except the rightmost one),
 	powers 3 lanes (30x3 outlets) and 12 on the main suspended raceway corridor. While the rightmost CP powers solely the rightmost lane and the
 	last 2 rightmost outlets on the suspended raceway corridor.
 	
@@ -64,16 +64,16 @@ As to the placement of the APs, they were deemed the best placements in order to
 
 #### Floor 0 Inventory
 
-* Telecommunications Enclosure(IC + HC - 8U)
+* Telecommunication Enclosure (IC + HC - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
 	* 1 Patch Panel w/24 Ethernet Ports - 1U
 	* 1 Patch Panel w/6 Optic Fibre Ports - 1U
-* Telecommunications Enclosure(HC - 4U)
+* 2 Telecommunication Enclosures (HC - 4U)
 	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
-* 3 Telecommunications Enclosure(CP - 32U)
+* 3 Telecommunication Enclosures (CP - 32U)
 	* 1 Optic Fibre -> CAT6A Switch w/128 Ports - 8U
 	* 1 Patch Panel w/128 Ports - 8U
-* Telecommunications Enclosure(CP - 8U)
+* Telecommunications Enclosure (CP - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 2U
 	* 1 Patch Panel w/48 Ports - 2U
 * 3 AP
@@ -103,11 +103,11 @@ As to the placement of the AP, it is centered on the left area of floor 1 in roo
 
 ### Floor 1 Inventory
 
-* Telecommunications Enclosure(HC - 8U)
+* Telecommunication Enclosure (HC - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/24 Ports - 1U
 	* 1 Patch Panel w/24 Ethernet Ports - 1U
 	* 1 Patch Panel w/4 Optic Fibre Ports - 1U
-* Telecommunications Enclosure(CP - 8U)
+* Telecommunication Enclosure (CP - 8U)
 	* 1 Optic Fibre -> CAT6A Switch w/48 Ports - 2U
 	* 1 Patch Panel w/48 Ports - 2U
 * 1 AP
