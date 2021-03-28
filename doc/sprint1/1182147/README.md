@@ -39,20 +39,23 @@ For this particular Sprint, I was in charge of designing a structured cabling de
 
 For this particular floor, I decided to place the IC in room 30.4 due to its proximity to the ceiling cable passageway, allowing me to design the
 cabling deployment in such a way that it solely required one IC to power both floors of the building.
+
 In regards to the placements of the HCs, the justification for their placements were as follows:
-	- HC in room 30.4 - Considering the left area of this floor has an area below 1000m2, in order to maintain proximity to the IC with the purpose of enclosing them
+- HC in room 30.4 - Considering the left area of this floor has an area below 1000m2, in order to maintain proximity to the IC with the purpose of enclosing them
 	in the same Telecommunications Enclosure and to comfortably power the southern outlets directly while powering the northern area through a CP. An argument could be
 	made that, since the traversal of the CAT6A copper wires to the northern area wouldn't surpass the recommended 80m, that it could power those outlets directly.
 	However, since signal naturally wavers down the farther it travels, I deemed it appropriate to supply a CP instead.
-	- HC in left part of Open Area - Considering the open area has an area of over 1000m2, I decided to split the area in 2 sections.
+- HC in left part of Open Area - Considering the open area has an area of over 1000m2, I decided to split the area in 2 sections.
 	This HC powers the leftmost 2 CPs while maintaining an area of control below 1000m2.
-	- HC in right part of Open Area - Same reason as stated above, but to the rightmost 2 CPs.
+- HC in right part of Open Area - Same reason as stated above, but to the rightmost 2 CPs.
+	
 Regarding the placements of the CPs, the justification for their placements were as follows:
-	- CP in room 30.2 - To avoid having the HC in room 30.4 powering all outlets in the left side of the floor, I centered this CP in the northern area
+- CP in room 30.2 - To avoid having the HC in room 30.4 powering all outlets in the left side of the floor, I centered this CP in the northern area
 	in order to maintain as leveled of a signal strength as strong as possible to the northern rooms (i.e. 30.1, 30.2 and 30.3).
-	- CPs in the Open Area - In order to maintain the corresponding Patchpanels within a maximum of 128 doors, each CP (except the rightmost one),
+- CPs in the Open Area - In order to maintain the corresponding Patchpanels within a maximum of 128 doors, each CP (except the rightmost one),
 	powers 3 lanes (30x3 outlets) and 12 on the main suspended raceway corridor. While the the right most CP powers solely the rightmost lane and the
 	last 2 rightmost outlets on the suspended raceway corridor.
+	
 As to the placement of the APs, they were deemed the best placements in order to attain full Wi-fi coverage of the floor, while avoiding deadzones.
 
 ### Floor 1
@@ -62,6 +65,8 @@ As to the placement of the APs, they were deemed the best placements in order to
 ![Floor 1 Plan](floor1plan.png)
 
 For this particular floor, the reasoning for the placement of the HC is the same as the one located in floor 0 at room 30.4.
+
 In regards to the CP, it now powers 4 rooms instead of 3 (such as the one in room 30.2 of floor 0) and, therefore, is centered accordingly.
+
 As to the placement of the AP, it is centered on the left area of floor 1 in room 31.6 as to maintain the signal strength equally across the floor.
 	
