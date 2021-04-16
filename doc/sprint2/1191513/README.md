@@ -34,7 +34,7 @@ This allows to futureproof the network installation and some scale up if necessa
 
 ## Configurations on Packet Tracer
 
-- VLANS were added to the MCC VLAN Database (135 to 165), as MCC is the server and should replicate the database to all layer 2 devices.
+- VLANS were added to the MCC VLAN Database (135 to 155), as MCC is the server and should replicate the database to all layer 2 devices.
 - ICC interfaces set to trunk mode.
 - HCC interfaces set to:
     - Trunk mode if connected to other Switch.
