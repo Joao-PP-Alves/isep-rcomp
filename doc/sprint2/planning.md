@@ -16,17 +16,20 @@ On this document are specified the common technical decisions for all the buildi
 * Each VLAN has a unique name (starting with the VTP name - rcompddg5) and ID. 
 We were given the VLAN ID range of 135 to 165.
 More specifically, per building, we decided to place them the following way:
-  Building 1 -> 135 - 140;
-  Building 2 -> 141 - 145;
-  Building 3 -> 146 - 150;
-  Building 4 -> 151 - 155;
+  - Building 1 -> 135 - 140;
+  - Building 2 -> 141 - 145;
+  - Building 3 -> 146 - 150;
+  - Building 4 -> 151 - 155;
   
 * The IPv4 network address of the backbone network: We were assigned an address space, which we had to divide in smaller blocks in order to split them for the diferent buildins.
 This said, we divided our address block - 10.122.208.0/20 - in the following way:
-  Building 1 -> 10.122.208.0/23;
-  Building 2 -> 10.122.210.0/23;
-  Building 3 -> 10.122.212.0/23;
-  Building 4 -> 10.122.214.0/23;
+  - Building 1 -> 10.122.208.0/23;
+  - Building 2 -> 10.122.210.0/23;
+  - Building 3 -> 10.122.212.0/23;
+  - Building 4 -> 10.122.214.0/23;
+  
+* Instead of having only Address Range to cover the nodes requested, we decided to do some improvement and add to the subnet more nodes than necessary.
+This is a way to make room for future upgrades to the network.
   
 * With the gathering of the 4 buildings + Backbone, there will be only 1 switch with the VTP server role.
 Until then, the building itself will have a switch called **Dummy_Connection** with the VTP server role.
