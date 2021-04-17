@@ -34,26 +34,39 @@ This is a way to make room for future upgrades to the network.
 * With the gathering of the 4 buildings + Backbone, there will be only 1 switch with the VTP server role.
 Until then, the building itself will have a switch called **Dummy_Connection** with the VTP server role.
   
+* All devices should follow the specific name strategy - Building-Localization and other information-Device (ex: B2-Floor0-AP2) - or something similar;
+  
+* Connecting the devices, we decided to have some liberty regarding the specific type of cable used, since it was decided in the sprint before.
+With that, we decided to choose the following cable strategy:
+  - Between Switches: Fiber (FFE or FGE entrances);
+  - Switches to Access Points: Fiber (FFE entrances);
+  - Router to Switches: Fiber (FFE or FGE entrances);
+  - Switches to PC: Copper (CFE entrances);
+  - Switches to Servers: Fibber/Copper (FFE or CFE entrances);
+  
 * Our team was assigned with 120.57.210.186/30 as the ISP router IPv4 node address.
 
+* Except for the VoIP phones, all other end devices are required to have a static and manually defined IPv4 configuration, including the default gateway.
+
+* The default VLAN, with 1 as the ID, is going to be used to connect to the backbone.
 
 # 3. Subtasks assignment #
 
 * 1191513 - (T.2.1) Development of a layer two and layer three Packet Tracer
-  simulation for building A, and also encompassing the campus
+  simulation for building 1, and also encompassing the campus
   backbone. Integration of every members' Packet Tracer simulations into
   a single simulation.
 
 * 1190743 - (T.2.2) Development of a layer two and layer three Packet Tracer
-  simulation for building B, and also encompassing the campus
+  simulation for building 2, and also encompassing the campus
   backbone.
 
 * 1182147 - (T.2.3) Development of a layer two and layer three Packet Tracer
-  simulation for building C, and also encompassing the campus
+  simulation for building 3, and also encompassing the campus
   backbone.
 
 * 1170640 - (T.2.4) Development of a layer two and layer three Packet Tracer
-  simulation for building D, and also encompassing the campus
+  simulation for building 4, and also encompassing the campus
   backbone.
 
 
