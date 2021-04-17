@@ -1,35 +1,31 @@
-RCOMP 2019-2020 Project - Sprint 2 review
+RCOMP 2020-2021 Project - Sprint 2 review
 =========================================
-### Sprint master: 2222222 ###
-(This file is to be created/edited by the sprint master only)
+### Sprint master: 1190743 (João Alves) ###
+
 # 1. Sprint's backlog #
-(Copy here a summary of the provided sprint's backlog, the same text as for the Planning Meeting)
+Regarding Sprint 2, this team is now, using the last project made, asked to create a network simulation (using Cisco Packet Tracer).
+In terms of knowledge, the focus is on the layer two infrastructure and the layer three fundamentals, such as IPv4 addressing and static routing.
+On this document are specified the common technical decisions for all the buildings to follow. These were decided in group and will be explained ahead.
+
 # 2. Subtasks assessment #
-One by one, each team member presents his/her outcomes to the team, the team assesses 		the accomplishment of the subtask backlog.
+Respecting the divisions made in the last sprint, each member created the network simulation to the previously given building.
+
+One by one, each team member presents his/her outcomes to the team, the team assesses the accomplishment of the subtask backlog.
 The subtask backlog accomplishment can be assessed as one of:
 
-  * Totally implemented with no issues
-  * Totally implemented with issues
-  * Partially implemented with no issues
-  * Partially implemented with issues
+* Totally implemented with no issues
+* Totally implemented with issues
+* Partially implemented with no issues
+* Partially implemented with issues
 
 For the last three cases, a text description of what has not been implemented and present issues must be added.
 Unimplemented features and issues solving is assigned to the same member on the next sprint.
 
-(Examples)
-## 2.1. 1111111 - Structured cable design for building A, floors 2 and 3 #
-### Totally implemented with no issues. ###
-## 2.2. 2222222 - Structured cable design for building B, floors 0 and 1 #
-### Totally implemented with issues. ###
-The number of outlets in room X is incorrect.
-A better solution for the cable pathways between the floor 1 		distributer and rooms Z and Y should be found.
-## 2.3. 3333333 - VLAN devices configuration for building C #
-### Partially implemented with no issues. ###
-The VLAN CCCC with VLANID 400 has not been implemented.
-The VTP configuration is not present in switch DD.
-## 2.4. 4444444 - IPv4 addressing and routing configurations for building D #
-### Partially implemented with issues. ###
-The IPv4 network TTT has not been implemented.
-The routing table at router FF has the wrong mask for network YYY.
-Nodes on network CCC are not receiving the default-gateway by DHCP.
-
+## 2.1. 1191513 - Development of a layer two and layer three Packet Tracer simulation for building 1, and also encompassing the campus backbone. Integration of every members' Packet Tracer simulations into a single simulation. #
+* Totally implemented with no issues.
+## 2.2. 1190743 - Development of a layer two and layer three Packet Tracer simulation for building 2, and also encompassing the campus backbone. Writing the planning.md as Sprint Master #
+* Totally implemented with no issues.
+## 2.3. 1182147 - Development of a layer two and layer three Packet Tracer simulation for building 3, and also encompassing the campus backbone. #
+* Totally implemented with no issues.
+## 2.4. 1170640 - Development of a layer two and layer three Packet Tracer simulation for building 4, and also encompassing the campus backbone. #
+* Totally implemented with no issues. 
