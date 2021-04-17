@@ -54,4 +54,4 @@ For this particular Sprint, I was in charge of the development of a layer two an
 - End devices were connected to the HCCs or CPs using Copper patch cables.
 - Redundancy between ICCs and HCCs was taken into consideration, but not by connecting 2 cables in the .pkt file.
 - SSIDs and authentication modes on Access Points were not setup since it was not asked for Sprint2.
-- Laptops, DMZ Server and VoIP phone connected to respective HCC or CP.
+- Workstations, Laptops, DMZ Server and VoIP phone connected to respective HCC or CP.
