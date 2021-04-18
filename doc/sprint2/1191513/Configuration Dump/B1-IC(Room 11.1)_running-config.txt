@@ -17,6 +17,9 @@ spanning-tree extend system-id
 interface GigabitEthernet0/1
  switchport mode trunk
 !
+interface FastEthernet7/1
+ switchport mode trunk
+!
 interface FastEthernet8/1
  switchport mode trunk
 !

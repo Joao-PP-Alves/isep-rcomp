@@ -23,7 +23,8 @@ interface FastEthernet7/1
 interface FastEthernet8/1
 !
 interface FastEthernet9/1
- switchport mode trunk
+ switchport access vlan 138
+ switchport mode access
 !
 interface Vlan1
  no ip address

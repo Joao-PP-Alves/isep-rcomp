@@ -51,7 +51,32 @@ interface FastEthernet0/1
  shutdown
 !
 interface FastEthernet1/0
- ip address 120.57.210.186 255.255.255.252
+ no ip address
+!
+interface FastEthernet1/0.136
+ description rcompddg5_B1_floor_0
+ encapsulation dot1Q 136
+ ip address 10.122.208.129 255.255.255.192
+!
+interface FastEthernet1/0.137
+ description rcompddg5_B1_floor_1
+ encapsulation dot1Q 137
+ ip address 10.122.208.193 255.255.255.192
+!
+interface FastEthernet1/0.138
+ description rcompddg5_B1_WiFi
+ encapsulation dot1Q 138
+ ip address 10.122.209.225 255.255.255.224
+!
+interface FastEthernet1/0.139
+ description rcompddg5_B1_DMZ
+ encapsulation dot1Q 139
+ ip address 10.122.209.1 255.255.255.128
+!
+interface FastEthernet1/0.140
+ description rcompddg5_B1_VoIP
+ encapsulation dot1Q 140
+ ip address 10.122.209.193 255.255.255.224
 !
 interface Vlan1
  no ip address
