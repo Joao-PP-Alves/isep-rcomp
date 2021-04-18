@@ -29,6 +29,7 @@ license udi pid CISCO2811/K9 sn FTX101761SK-
 !
 !
 !
+no ip domain-lookup
 !
 !
 spanning-tree mode pvst
@@ -51,7 +52,32 @@ interface FastEthernet0/1
  shutdown
 !
 interface FastEthernet1/0
- ip address 120.57.210.186 255.255.255.252
+ no ip address
+!
+interface FastEthernet1/0.151
+ description rcompddg5_B4_floor_0
+ encapsulation dot1Q 151
+ ip address 10.122.214.1 255.255.255.192
+!
+interface FastEthernet1/0.152
+ description rcompddg5_B4_floor_1
+ encapsulation dot1Q 152
+ ip address 10.122.214.65 255.255.255.192
+!
+interface FastEthernet1/0.153
+ description rcompddg5_B4_WiFi
+ encapsulation dot1Q 153
+ ip address 10.122.214.129 255.255.255.192
+!
+interface FastEthernet1/0.154
+ description rcompddg5_B4_DMZ
+ encapsulation dot1Q 154
+ ip address 10.122.215.1 255.255.255.0
+!
+interface FastEthernet1/0.155
+ description rcompddg5_B4_VoIP
+ encapsulation dot1Q 155
+ ip address 10.122.214.193 255.255.255.192
 !
 interface Vlan1
  no ip address

@@ -44,26 +44,6 @@ interface FastEthernet0/0
  speed auto
  shutdown
 !
-interface FastEthernet0/0.1
- encapsulation dot1Q 142
- ip address 10.122.210.129 255.255.255.192
-!
-interface FastEthernet0/0.2
- encapsulation dot1Q 141
- ip address 10.122.210.1 255.255.255.128
-!
-interface FastEthernet0/0.3
- encapsulation dot1Q 144
- ip address 10.122.211.1 255.255.255.128
-!
-interface FastEthernet0/0.4
- encapsulation dot1Q 143
- ip address 10.122.210.193 255.255.255.240
-!
-interface FastEthernet0/0.5
- encapsulation dot1Q 145
- ip address 10.122.211.129 255.255.255.192
-!
 interface FastEthernet0/1
  no ip address
  duplex auto
@@ -71,7 +51,27 @@ interface FastEthernet0/1
  shutdown
 !
 interface FastEthernet1/0
- ip address 120.57.210.186 255.255.255.252
+ no ip address
+!
+interface FastEthernet1/0.1
+ encapsulation dot1Q 142
+ ip address 10.122.210.129 255.255.255.192
+!
+interface FastEthernet1/0.2
+ encapsulation dot1Q 141
+ ip address 10.122.210.1 255.255.255.128
+!
+interface FastEthernet1/0.3
+ encapsulation dot1Q 144
+ ip address 10.122.211.1 255.255.255.128
+!
+interface FastEthernet1/0.4
+ encapsulation dot1Q 143
+ ip address 10.122.210.193 255.255.255.240
+!
+interface FastEthernet1/0.5
+ encapsulation dot1Q 145
+ ip address 10.122.211.129 255.255.255.192
 !
 interface Vlan1
  no ip address
