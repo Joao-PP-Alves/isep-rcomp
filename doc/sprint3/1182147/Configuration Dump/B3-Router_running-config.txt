@@ -1,0 +1,129 @@
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+ip dhcp excluded-address 10.122.212.1
+ip dhcp excluded-address 10.122.212.65
+ip dhcp excluded-address 10.122.212.129
+ip dhcp excluded-address 10.122.212.193
+!
+ip dhcp pool VLAN146
+ network 10.122.212.0 255.255.255.192
+ default-router 10.122.212.1
+ip dhcp pool VLAN147
+ network 10.122.212.64 255.255.255.192
+ default-router 10.122.212.65
+ip dhcp pool VLAN148
+ network 10.122.212.128 255.255.255.192
+ default-router 10.122.212.129
+ip dhcp pool VLAN150
+ network 10.122.212.192 255.255.255.192
+ default-router 10.122.212.193
+ option 150 ip 10.122.212.193
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2811/K9 sn FTX1017W474-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface FastEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface FastEthernet1/0
+ no ip address
+!
+interface FastEthernet1/0.146
+ description rcompddg5_B3_floor_0
+ encapsulation dot1Q 146
+ ip address 10.122.212.1 255.255.255.192
+!
+interface FastEthernet1/0.147
+ description rcompddg5_B3_floor_1
+ encapsulation dot1Q 147
+ ip address 10.122.212.65 255.255.255.192
+!
+interface FastEthernet1/0.148
+ description rcompddg5_B3_WiFi
+ encapsulation dot1Q 148
+ ip address 10.122.212.129 255.255.255.192
+!
+interface FastEthernet1/0.149
+ description rcompddg5_B3_DMZ
+ encapsulation dot1Q 149
+ ip address 10.122.213.1 255.255.255.0
+!
+interface FastEthernet1/0.150
+ description rcompddg5_B3_VoIP
+ encapsulation dot1Q 150
+ ip address 10.122.212.193 255.255.255.192
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router ospf 1
+ log-adjacency-changes
+ network 10.122.212.0 0.0.1.255 area 3
+!
+router rip
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+
