@@ -117,6 +117,30 @@ ip flow-export version 9
 !
 !
 !
+telephony-service
+ max-ephones 20
+ max-dn 20
+ ip source-address 10.122.214.193 port 2000
+ auto assign 11 to 12
+!
+ephone-dn 11
+ number 4001
+!
+ephone-dn 12
+ number 4002
+!
+ephone 1
+ device-security-mode none
+ mac-address 000C.CFA4.46BB
+ type 7960
+ button 1:11
+!
+ephone 2
+ device-security-mode none
+ mac-address 000B.BE6B.785D
+ type 7960
+ button 1:12
+!
 line con 0
 !
 line aux 0
