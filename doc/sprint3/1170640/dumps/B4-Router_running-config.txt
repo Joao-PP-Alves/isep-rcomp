@@ -9,7 +9,24 @@ hostname Router
 !
 !
 !
+ip dhcp excluded-address 10.122.214.1
+ip dhcp excluded-address 10.122.214.65
+ip dhcp excluded-address 10.122.214.129
+ip dhcp excluded-address 10.122.214.193
 !
+ip dhcp pool VLAN151
+ network 10.122.214.0 255.255.255.192
+ default-router 10.122.214.1
+ip dhcp pool VLAN152
+ network 10.122.214.64 255.255.255.192
+ default-router 10.122.214.65
+ip dhcp pool VLAN153
+ network 10.122.214.128 255.255.255.192
+ default-router 10.122.214.129
+ip dhcp pool VLAN155
+ network 10.122.214.192 255.255.255.192
+ default-router 10.122.214.193
+ option 150 ip 10.122.214.193
 !
 !
 !
@@ -82,6 +99,10 @@ interface FastEthernet1/0.155
 interface Vlan1
  no ip address
  shutdown
+!
+router ospf 1
+ log-adjacency-changes
+ network 10.122.214.0 0.0.1.255 area 4
 !
 router rip
 !
