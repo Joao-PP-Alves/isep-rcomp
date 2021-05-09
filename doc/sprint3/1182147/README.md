@@ -35,24 +35,28 @@ For this particular Sprint, we were expected to implement the following configur
  - ip dhcp excluded-address 10.122.212.65
  - ip dhcp excluded-address 10.122.212.129
  - ip dhcp excluded-address 10.122.212.193
+ 
 
  - ip dhcp pool VLAN146
  - network 10.122.212.0 255.255.255.192
  - default-router 10.122.212.1
  - dns-server 10.122.213.2
  - domain-name building-3.rcomp-20-21-dd-g5
+ 
 
  - ip dhcp pool VLAN147
  - network 10.122.212.64 255.255.255.192
  - default-router 10.122.212.65
  - dns-server 10.122.213.2
  - domain-name building-3.rcomp-20-21-dd-g5
+ 
 
  - ip dhcp pool VLAN148
  - network 10.122.212.128 255.255.255.192
  - default-router 10.122.212.129
  - dns-server 10.122.213.2
  - domain-name building-3.rcomp-20-21-dd-g5
+ 
 
  - ip dhcp pool VLAN150
  - network 10.122.212.192 255.255.255.192
@@ -66,32 +70,39 @@ For this particular Sprint, we were expected to implement the following configur
  - dial-peer voice 1000 voip
  - destination-pattern 1...
  - session target ipv4:10.122.209.193
+ 
 
  - dial-peer voice 2000 voip
  - destination-pattern 2...
  - session target ipv4:10.122.211.129
+ 
 
  - dial-peer voice 4000 voip
  - destination-pattern 4...
  - session target ipv4:10.122.214.193
+ 
 
  - telephony-service
  - max-ephones 40
  - max-dn 40
  - ip source-address 10.122.212.193 port 2000
  - auto assign 11 to 12
+ 
 
  - ephone-dn 11
  - number 3001
+ 
 
  - ephone-dn 12
  - number 3002
+ 
 
  - ephone 1
  - device-security-mode none
  - mac-address 0000.0CB5.C09C
  - type 7960
  - button 1:12
+ 
 
  - ephone 2
  - device-security-mode none
