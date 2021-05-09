@@ -25,12 +25,15 @@ Unimplemented features and issues solving is assigned to the same member on the 
 * DNS server is missing.
 * No NAT configuration.
 * Everything else: Totally implemented with no issues.
+
 ## 2.2. 1190743 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2. #
 * Partial NAT configuration.
 * Everything else: Totally implemented with no issues.
+
 ## 2.3. 1182147 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3. #
 * No NAT configuration.
 * Everything else: Totally implemented with no issues.
+
 ## 2.4. 1170640 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4 + Final integration of each member’s Packet Tracer simulation into a single simulation. #
 * No ACL configuration on campus.
 * Everything else: Totally implemented with no issues.
