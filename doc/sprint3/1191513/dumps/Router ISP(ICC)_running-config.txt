@@ -58,7 +58,7 @@ license udi pid CISCO2811/K9 sn FTX1017RV5U-
 !
 !
 !
-!
+no ip domain-lookup
 !
 !
 !
@@ -115,12 +115,14 @@ interface Vlan1
 !
 router ospf 1
  log-adjacency-changes
- network 10.122.210.0 0.0.1.255 area 2
+ network 10.122.210.0 0.0.1.255 area 1
 !
 router rip
 !
-ip nat inside source static tcp 10.122.209.2 80 10.122.208.0 8081 
-ip nat inside source static tcp 10.122.209.2 443 10.122.208.0 8082 
+ip nat inside source static tcp 10.122.209.3 80 10.122.208.0 80 
+ip nat inside source static tcp 10.122.209.3 443 10.122.208.0 443 
+ip nat inside source static tcp 10.122.209.2 53 120.57.208.186 53 
+ip nat inside source static udp 10.122.209.2 53 120.57.208.186 53 
 ip classless
 !
 ip flow-export version 9
