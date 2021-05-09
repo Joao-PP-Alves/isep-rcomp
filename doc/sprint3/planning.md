@@ -39,16 +39,13 @@ DNS domain for all the buildings:
 
 # 3. Subtasks assignment #
 
-  * 1191513 - (T.3.3) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building 3.
+  * 1191513 - (T.3.1) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
 
-  * 1190743 - (T.3.2) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building 2.
+  * 1190743 - (T.3.2) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2.
 
-  * 1182147 - (T.3.1) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
+  * 1182147 - (T.3.3) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3.
 
-  * 1170640 - (T.3.4) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building 4 + Final integration of each member’s Packet Tracer simulation into a single simulation.
+  * 1170640 - (T.3.4) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4 + Final integration of each member’s Packet Tracer simulation into a single simulation.
 
 # 4. Notes #
 
