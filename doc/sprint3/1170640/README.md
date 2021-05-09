@@ -1,7 +1,90 @@
-RCOMP 2019-2020 Project - Sprint 3 - Member 4444444 folder
+RCOMP 2020-2021 Project - Sprint 3 - Member 1171060 folder
 ===========================================
-(This folder is to be created/edited by the team member 4444444 only)
+# BUILDING 4
 
-#### This is just an example for a team member with number 4444444 ####
-### Each member should create a folder similar to this, matching his/her number. ###
-The owner of this folder (member number 4444444) will commit here all the outcomes (results/artifacts/products)		       of his/her work during sprint 3. This may encompass any kind of standard file types.
+In this document there will be all the commands I used to configurate different devices. The IPs for the servers are on their notes.
+
+# OSPF COMMANDS #
+
+router ospf 1
+network 10.166.142.0 255.255.254.0 area 0  
+network 10.166.132.0 255.255.254.0 area 2  
+
+Principal Router:
+router ospf 1
+network 10.166.142.0 255.255.254.0 area 0  
+network 10.166.136.0 255.255.254.0 area 1  
+network 10.166.132.0 255.255.254.0 area 2  
+network 10.166.128.0 255.255.254.0 area 3
+network 10.166.140.0 255.255.254.0 area 4
+
+
+# DHCP / DNS COMMANDS #
+
+ip dhcp excluded-address 10.122.214.1
+ip dhcp excluded-address 10.122.214.65
+ip dhcp excluded-address 10.122.214.129
+ip dhcp excluded-address 10.122.214.193
+
+ip dhcp pool VLAN151
+network 10.122.214.0 255.255.255.192
+default-router 10.122.214.1
+dns-server 10.122.215.2
+domain-name building-4.rcomp-20-21-dd-g5
+
+ip dhcp pool VLAN152
+network 10.122.214.64 255.255.255.192
+default-router 10.122.214.65
+dns-server 10.122.215.2
+domain-name building-4.rcomp-20-21-dd-g5
+
+ip dhcp pool VLAN153
+network 10.122.214.128 255.255.255.192
+default-router 10.122.214.129
+dns-server 10.122.215.2
+domain-name building-4.rcomp-20-21-dd-g5
+
+ip dhcp pool VLAN155
+network 10.122.214.192 255.255.255.192
+default-router 10.122.214.193
+option 150 ip 10.122.214.193
+dns-server 10.122.215.2
+domain-name building-4.rcomp-20-21-dd-g5
+
+
+# VoIP COMMANDS #
+(Switchport configuration for the switch was already in place on sprint 2)
+
+telephony-service
+auto-reg-ephone
+ip source-address 10.122.214.193 port 2000
+max-ephones 20
+max-dn 20
+auto assign 11 to 12
+
+ephone-dn 11
+number 4001
+
+ephone-dn 12
+number 4002
+
+
+dial-peer voice 1000 voip
+destination-pattern 1...
+session target ipv4:10.122.209.193
+
+dial-peer voice 2000 voip
+destination-pattern 2...
+session target ipv4:10.122.211.129
+
+dial-peer voice 3000 voip
+destination-pattern 3...
+session target ipv4:10.122.212.193
+
+
+# DNS #
+
+![DNS.jpg](dns.jpg)
+
+
+# NAT COMMANDS #
