@@ -84,7 +84,7 @@ session target ipv4:10.122.212.193
 
 # DNS #
 
-![DNS.jpg](dns.jpg)
+![DNS.png](DNS.png)
 
 
 # NAT COMMANDS #

@@ -125,6 +125,18 @@ ip flow-export version 9
 !
 !
 !
+dial-peer voice 1000 voip
+ destination-pattern 1...
+ session target ipv4:10.122.209.193
+!
+dial-peer voice 2000 voip
+ destination-pattern 2...
+ session target ipv4:10.122.211.129
+!
+dial-peer voice 3000 voip
+ destination-pattern 3...
+ session target ipv4:10.122.212.193
+!
 telephony-service
  max-ephones 20
  max-dn 20
