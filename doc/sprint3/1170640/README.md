@@ -7,17 +7,7 @@ In this document there will be all the commands I used to configurate different 
 # OSPF COMMANDS #
 
 router ospf 1
-network 10.166.142.0 255.255.254.0 area 0  
-network 10.166.132.0 255.255.254.0 area 2  
-
-Principal Router:
-router ospf 1
-network 10.166.142.0 255.255.254.0 area 0  
-network 10.166.136.0 255.255.254.0 area 1  
-network 10.166.132.0 255.255.254.0 area 2  
-network 10.166.128.0 255.255.254.0 area 3
-network 10.166.140.0 255.255.254.0 area 4
-
+network 10.122.214.0 0.0.1.255 area 4
 
 # DHCP / DNS COMMANDS #
 
