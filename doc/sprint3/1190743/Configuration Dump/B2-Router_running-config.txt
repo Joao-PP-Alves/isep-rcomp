@@ -44,7 +44,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017RD4X-
+license udi pid CISCO2811/K9 sn FTX1017MHNO-
 !
 !
 !
@@ -108,8 +108,10 @@ router ospf 1
 !
 router rip
 !
-ip nat inside source static tcp 10.122.210.194 80 10.122.208.0 8081 
-ip nat inside source static tcp 10.122.210.194 443 10.122.208.0 8082 
+ip nat inside source static tcp 10.122.210.195 80 120.57.210.186 8081 
+ip nat inside source static tcp 10.122.210.195 443 120.57.210.186 8082 
+ip nat inside source static tcp 10.122.215.194 53 120.57.210.186 53 
+ip nat inside source static udp 10.122.215.194 53 120.57.210.186 53 
 ip classless
 !
 ip flow-export version 9
@@ -123,7 +125,7 @@ ip flow-export version 9
 !
 dial-peer voice 1000 voip
  destination-pattern 1...
- session target ipv4:10.166.137.161
+ session target ipv4:10.122.209.193
 !
 dial-peer voice 3000 voip
  destination-pattern 3...

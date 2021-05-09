@@ -72,6 +72,7 @@ RCOMP 2020-2021 Project - Sprint 3 - Member 1190743 folder
     router ospf 1
     log-adjacency-changes
     network 10.122.210.0 0.0.1.255 area 2
+    network 10.122.208.0 0.0.0.128 area 0
 
 
 #### VoiP ####
@@ -115,5 +116,7 @@ RCOMP 2020-2021 Project - Sprint 3 - Member 1190743 folder
 
 #### NAT ####
     
-    ip nat inside source static tcp 10.122.210.194 80 10.122.208.0 8081 
-    ip nat inside source static tcp 10.122.210.194 443 10.122.208.0 8082
+    ip nat inside source static tcp 10.122.210.195 80 120.57.210.186 8081 
+    ip nat inside source static tcp 10.122.210.195 443 120.57.210.186 8082
+    ip nat inside source static tcp 10.122.215.194 53 120.57.210.186 53
+    ip nat inside source static udp 10.122.215.194 53 120.57.210.186 53 
