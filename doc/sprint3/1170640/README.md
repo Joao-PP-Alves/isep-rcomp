@@ -88,3 +88,8 @@ session target ipv4:10.122.212.193
 
 
 # NAT COMMANDS #
+
+ip nat inside source static tcp 10.122.215.3 80 120.57.210.186 80
+ip nat inside source static tcp 10.122.215.3 443 120.57.210.186 443
+ip nat inside source static tcp 10.122.215.2 53 120.57.210.186 53
+ip nat inside source static udp 10.122.215.2 53 120.57.210.186 53

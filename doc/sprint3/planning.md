@@ -20,36 +20,36 @@ Each team-member will deliver that file with all the configurations reagarding t
 # 2. Technical decisions and coordination #
 
 We will name our ospf 'ospf 1' and the areas will be distributed by buildings so:
-- Building A: area 1
-- Building B: area 2
-- Building C: area 3
-- Building D: area 4
+- Building 1: area 1
+- Building 2: area 2
+- Building 3: area 3
+- Building 4: area 4
 
 The prefixes for the phones will follow the same pattern:
-- Building A: 1... (1001, 1002, ...)
-- Building B: 2... (2001, 2002, ...)
-- Building C: 3... (3001, 3002, ...)
-- Building D: 4... (4001, 4002, ...)
+- Building 1: 1... (1001, 1002, ...)
+- Building 2: 2... (2001, 2002, ...)
+- Building 3: 3... (3001, 3002, ...)
+- Building 4: 4... (4001, 4002, ...)
 
 DNS domain for all the buildings:
-- Building A: rcomp-19-20-dd-g5 / ns.rcomp-19-20-dd-g5
-- Building B: building-2.rcomp-19-20-dd-g5 / ns.building-2.rcomp-20-21-dd-g5
-- Building C: building-3.rcomp-19-20-dd-g5 / ns.building-3.rcomp-19-20-dd-g5
-- Building D: building-4.rcomp-19-20-dd-g5 / ns.building-4.rcomp-19-20-dd-g5
+- Building 1: rcomp-19-20-dd-g5 / ns.rcomp-19-20-dd-g5
+- Building 2: building-2.rcomp-19-20-dd-g5 / ns.building-2.rcomp-20-21-dd-g5
+- Building 3: building-3.rcomp-19-20-dd-g5 / ns.building-3.rcomp-19-20-dd-g5
+- Building 4: building-4.rcomp-19-20-dd-g5 / ns.building-4.rcomp-19-20-dd-g5
 
 # 3. Subtasks assignment #
 
   * 1191513 - (T.3.3) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building C.
+previous sprint, to include the described features in this sprint for building 3.
 
   * 1190743 - (T.3.2) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building B.
+previous sprint, to include the described features in this sprint for building 2.
 
-  * 1182147 - (T.3.1) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building A.
+  * 1182147 - (T.3.1) Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
 
   * 1170640 - (T.3.4) Update the campus.pkt layer three Packet Tracer simulation from the
-previous sprint, to include the described features in this sprint for building D + Final integration of each member’s Packet Tracer simulation into a single simulation.
+previous sprint, to include the described features in this sprint for building 4 + Final integration of each member’s Packet Tracer simulation into a single simulation.
 
-# 4. Notes # 
+# 4. Notes #
 
 - The final integration was delegated to the member of building 4, as it was the sprint master.
