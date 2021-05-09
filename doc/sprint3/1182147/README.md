@@ -101,7 +101,7 @@ ephone 2
 
 ## DNS
 
-![DNS.png](DNS.png)
+![DNS.PNG](DNS.PNG)
 
 ## NAT COMMANDS
 
